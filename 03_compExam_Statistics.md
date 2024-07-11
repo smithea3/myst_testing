@@ -1,8 +1,8 @@
 ---
-title: Comprehenstive Exam Goal—Statistics
+title: Comprehensive Exam Goal 3
 subject: Tutorial
-# subtitle:
-# short_title: How to MyST
+subtitle: Statistics
+short_title: Statistics
 authors:
   - name: Ethan A. Smith
     # affiliations:
