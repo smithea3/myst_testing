@@ -39,9 +39,28 @@ Nearly one-third of the population (34%) likes the color blue.
 :::{note}
 When reporting the *p* value, the following rules should be considered.
 1. The *p* value should be reported to three decimal places. 
-2. The decimal value should not have a leading zero. I.e., .023 is prefered over 0.023.
+2. The decimal value should not have a leading zero. i.e., .023 is prefered over 0.023.
 3. If the *p* values is less than .001, then the value should be reported as *p* < .001.
 :::
 
-## Univariate Linear Regression
-When reporting a univariate lienar regression (i.e., $y=mx+b$), the results should be reported as *r*(df) = #, *p* = #.
+## Univariate Linear Correlation
+When reporting a univariate linear correlation (i.e., $y=mx+b$), the results should be reported as *r*(df) = #, *p* = #.
+
+The degrees of freedom (df) is equal to the number of data points minus two—i.e., $n-2$.
+
+:::{tip} Example
+A linear correlation was calculation with ten data points and resulted in *r*(8) = .893, *p* = .023
+:::
+
+## Student t-Test
+When reporting a Student *t*-test, the formation should be *t*(df) = #, *p* = #. 
+* If the *t*-test is an independent sample *t*-test, then the degress of freedom (df) is calculated by adding the total number of observations and subtracting two. 
+* If the *t*-test is a dependent sample (paired data) *t*-test, then the degrees of freedom (df) is the number of observations pair-wise groups minus one.
+
+:::{tip} Example: Independent Sample *t*-test
+A t-test was calculated to determine if there was a statistically significant difference between the averages of two precalculus courses' final exam grades. The first class had 12 students and the second class had 15 students. The results were *t*(25) = 3.11, p < .001.
+:::
+
+:::{tip} Example: Dependent Sample *t*-test
+A t-test was calculated to determine if there was a statistically significant difference between a pre-test and a post-test for a introductory biology class. class had 20 students. The results were *t*(19) = 2, p < .234.
+:::
